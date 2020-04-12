@@ -4,15 +4,16 @@
   .grid-wrapper {
     padding: .5rem 0;
     grid-row-gap: 0;
+    grid-gap: 5px;
   }
 
   .licence {
-    grid-column: 5/9;
+    grid-column: 5/8;
     align-self: center;
     justify-self: center;
     color: $white;
     a, i {
-      color: $white;
+      color: $white !important;
       font-size: .75rem;
       font-weight: 200;
     }
@@ -28,7 +29,7 @@
   }
 
   .redhat {
-    grid-column: 9/12;
+    grid-column: 8/12;
     align-self: center;
     justify-self: end;
     font-size: .75rem;
@@ -41,18 +42,18 @@
     @media screen and (max-width: 768px) {
       grid-column: 1/13;
       justify-self: center;
-      order: 2;
+      order: 1;
     }
   }
   .redhat-logo {
     grid-column: 12/13;
-    justify-self: end;
+    justify-self: start;
     align-self: center;
     img { min-width: 6rem; }
     @media screen and (max-width: 768px) {
       grid-column: 1/13;
       justify-self: center;
-      order: 1;
+      order: 2;
     }
   }
 }

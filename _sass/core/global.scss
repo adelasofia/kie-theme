@@ -11,14 +11,19 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-body {
-  margin: 0;
-}
-
-div.content {
-  padding: 4rem 13rem 6rem 13rem;
-  @media screen and (max-width: 1170px) { padding: 2rem 6rem 4rem 6rem; }
-  @media screen and (max-width: 480px) { padding: 2rem 2rem 4rem 2rem; }
+body > div.content {
+  padding: 0 13rem;
+  @media screen and (max-width: 1170px) { padding: 0 6rem; }
+  @media screen and (max-width: 768px) {
+    padding: 0 2rem;
+    .navigation-wrapper {
+      margin: 0;
+    }
+    .admonitionblock > table td.icon {
+      width: initial;
+      font-size: 75%;
+    }
+  }
 }
 
 div.content-slim, {

@@ -1,28 +1,18 @@
-footer_text: "This website built with <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> is hosted on <a href='https://pages.github.com/' target='_blank'>Github Pages</a> and is completely open source. If you want to make it better, <a href='https://github.com/rhmwes/community-theme' target='_blank'>fork the website</a> and show us what you’ve got."
+footer_text: "<span class='section-title'>KIE is Open Source</span><br/>KIE and its sub-projects are available under the <a href='https://www.apache.org/licenses/LICENSE-2.0' target='_blank'>Apache 2.0</a> or compatible license.<br /><br />This website built with <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> is hosted on Github Pages and is completely open source. If you want to make it better, fork the website and show us what you’ve got."
 
 links:
-  - title: Navigation
+  - title: KIE Projects
     subfolderitems:
-      - page: Home
+      - page: KIE Home
         url: /
-      - page: Downloads
-        url: /downloads
-      - page: Blog
-        url: /blog
-  - title: Contribute
-    subfolderitems:
-      - page: Follow us
-        url: https://twitter.com/
-      - page: GitHub
-        url: https://github.com/rhmwes/community-theme
-  - title: Get Help
-    subfolderitems:
-      - page: Chatroom
-        url: https://example.com
-      - page: Google&nbsp;Groups
-        url: https://example.com
-      - page: FAQ
-        url: /faq
+      - page: Kogito
+        url: http://kogito.kie.org/
+      - page: Drools
+        url: https://www.drools.org/
+      - page: OptaPlanner
+        url: https://www.optaplanner.org/
+      - page: jBPM
+        url: https://www.jbpm.org/
 
 more_links:
   - title: Find more Red Hat Middleware Community Projects
